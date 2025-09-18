@@ -1,71 +1,83 @@
+/* 
+SELETOR{
+    propriedade : valor;
+} */
+
 body{
     background-color: #222831;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 img{
     margin-bottom: 30px;
-    border: 5px solid black;
-    border-radius: 50%;
+    border: 5px solid #222831;
+    border-radius: 50%;    
+
+    /*border-style: solid;
+    border-width: 5px;
+    border-color: #222831;*/
 }
 
-
-
-
 h1{
-    color: black;
-    font-size: 32px;
-    margin: 0;
+    color: #393E46;
+    font-size: 32px;       
+    margin: 0; 
 }
 
 h2{
     margin: 0;
     font-size: 20px;
-    color:#363636
+    color: #364863;
 }
 
 p{
     color: #666666;
+    /*font-size: 16px;*/
 }
 
 .principal{
-    background-color: #F2E205;
-    width: 340px;
-    height: 501px;
+    background-color: #EEEEEE;
+    
+    width: 70%; /*largura*/
+    max-width: 340px; /*largura máxima*/
+    min-height: 501px; /*altura*/
+
     margin-top: 30px;
-    /* hack para centralizar a div */
-    margin-left: auto;
+    /*HACK para centralizar a div*/
+    margin-left: auto; 
     margin-right: auto;
+
+    /*espaçamento interno*/
     padding: 30px;
     text-align: center;
+    border-radius: 10px;
 }
+
 .menu{
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
+
 .menu a{
-    color: white;
-    background-color:#222831;
+    color: #FFFFFF;
+    background-color: #393E46;
     display: block;
     margin-top: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: none;
-    border-radius :3px;
-    
-
+    border-radius: 3px;
 }
+
+/*Estado ao passar o mouse*/
 .menu a:hover{
-    background-color: #735703
+    background-color: #000000;
 }
 
 .assinatura{
-  color:#222831;
-
+    color: #222831;
 }
 
 .assinatura:hover{
     font-style: italic;
 }
-
